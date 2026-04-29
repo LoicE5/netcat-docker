@@ -3,7 +3,7 @@
 Minimal Docker image for [netcat](https://man.openbsd.org/nc) (`nc`) based on Alpine Linux, rebuilt and pushed to Docker Hub every week.
 
 ## Why this project
-I actually needed such an (very) minimal image for work, yet available images were pushed near a decade ago. I figured out that building what I need myself is the best way to get my problems solved, so there we are.
+I actually needed such a (very) minimal image for work, yet available images were pushed nearly a decade ago. I figured out that building what I need myself is the best way to solve my problems, so there we are.
 
 ## Usage
 
