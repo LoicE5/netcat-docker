@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0 - 2026-06-02
+
+### Added
+- GitHub Actions workflow to publish the image to the GitHub Container Registry (GHCR) at `ghcr.io/loice5/netcat`, using the built-in `GITHUB_TOKEN`
+
+### Changed
+- Renamed the Docker Hub workflow file to `publish-dockerhub.yaml` for symmetry with the GHCR workflow
+- Disabled provenance/SBOM attestations on both workflows to avoid a phantom `unknown/unknown` architecture entry in the registry listings
+
 ## 1.0.0 - 2026-04-29
 
 ### Added
