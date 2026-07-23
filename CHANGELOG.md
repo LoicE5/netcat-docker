@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 - 2026-07-23
+
+### Changed
+- Image now runs as the unprivileged `nobody` user instead of root
+
+### Added
+- `cap_net_bind_service` file capability on the `nc` binary so non-root listeners can still bind privileged ports (< 1024) without extra runtime flags
+
 ## 1.1.0 - 2026-06-02
 
 ### Added
